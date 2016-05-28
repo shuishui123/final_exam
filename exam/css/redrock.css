@@ -1,0 +1,1101 @@
+* {
+	font-family: "微软雅黑", "宋体", Arial, "times New Roman", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f7f7f7;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	width: 100%;
+	height: 35px;
+	background-color: #353535;
+}
+.header_con {
+	width: 1005px;
+	height: 35px;
+	margin: 0 auto;
+}
+.header_list {
+	margin-left: 20px;
+}
+.header_list li {
+	float: left;
+	padding-right: 34px;
+	line-height: 35px;
+}
+.header_list a {
+	font-size: 12px;
+	color: #999999;
+}
+#home_set {
+	color: #dddddd;
+}
+.header_list a:hover {
+	color: #dddddd;
+}
+.hello {
+	font-size: 12px;
+	color: #dddddd;
+	line-height: 35px;
+	margin-left: 105px;
+}
+.lookup {
+	display: inline-block;
+	float: right;
+	/*position: relative;*/
+}
+.lookup li {
+	float: left;
+	padding-left: 12px;
+}
+.name,
+.infor_look {
+	width: 94px;
+	text-align: center;
+	position: relative;
+}
+.forum {
+	width: 60px;
+	text-align: center;
+	margin-right: 25px;
+	position: relative;
+}
+.lookup a {
+	font-size: 12px;
+	color: #999999;
+	line-height: 35px;
+}
+.name_son,
+.infor_son,
+.forum_son {
+	position: absolute;
+	left: -1px;
+	display: none;
+	background-color: #fff;
+}
+.name_son li,
+.infor_son li,
+.forum_son li {
+	width: 94px;
+	text-align: center;
+	clear: both;
+	border-top: 1px #d4d4d4 solid;
+	overflow: hidden;
+}
+.forum_son li {
+	width: 60px;
+}
+.name:hover,
+.infor_look:hover,
+.forum:hover {
+	background-color: #fff;
+	border: 1px #d4d4d4 solid;
+	border-bottom: none;
+}
+.name:hover >.name_son,
+.infor_look:hover > .infor_son,
+.forum:hover > .forum_son {
+	display: block;
+	border: 1px #d4d4d4 solid;
+	border-top: none;
+}
+.tri {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top:4px #a2a2a2 solid;
+	border-bottom: 4px transparent solid;
+	border-left: 4px transparent solid;
+	border-right: 4px transparent solid;
+	margin-top: 15px;
+	margin-left: 2px;
+}
+.container {
+	width: 1005px;
+	margin:0 auto;
+	background-color: #fff;
+	overflow: hidden;
+}
+.redrock {
+	width: 1005px;
+	height: 90px;
+	margin: 0 auto;
+}
+.red_word {
+	display: inline-block;
+	font-size: 36px;
+	color: #ff4444;
+	line-height: 90px;
+	margin-left: 10px;
+	float: left;
+}
+.date,
+.place,
+.weather {
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+	float: left;
+	margin-top: 35px;
+	margin-left: 10px;
+}
+.place {
+	margin-top: 54px;
+	margin-left: -88px;
+}
+.weather {
+	margin-top: 54px;
+	margin-left: -50px;
+}
+.weather_font {
+	margin-top: 35px;
+	margin-left: 10px;
+}
+.long_hr {
+	width: 985px;
+	border: 1px #dddddd solid;
+	margin-left: 10px;
+}
+.link_con {
+	width: 1005px;
+	height: 75px;
+	margin: 0 auto;
+}
+.table1,
+.table2,
+.table3 {
+	width: 315px;
+	height: 48px;
+	margin-top: 13px;
+	margin-left: 10px;
+	border-right: 2px #ebebeb dotted;
+	float: left;
+}
+.table1 a,
+.table2 a,
+.table3 a {
+	font-size: 12px;
+	color: #333333;
+}
+#lange1,
+#lange2,
+#edu_on,
+#band {
+	color: #ff4444;
+}
+.table2,
+.table3 {
+	margin-left: 25px;
+}
+.table3 {
+	border-right: none;
+}
+.today {
+	width: 730px;
+	height: 425px;
+	margin-left: 10px;
+	overflow: hidden;
+	float: left;
+}
+.to_hot,
+.hot_act,
+.sch_talk,
+.ask_you {
+	font-size: 15px;
+	color: #e75c41;
+/*	margin-top: 5px;*/
+}
+.to_hothr,
+.hot_hothr {
+	width: 58px;
+	border: 1px #e75c41 solid;
+	margin-top: 8px;
+}
+.to_long
+.hot_long {
+	border: 1px #dddddd solid;
+}
+.to_man {
+	width: 290px;
+	height: 355px;
+	float: left;
+	margin-top: 22px;
+	background: url('../picture/man.jpg');
+}
+.man_mask {
+	width: 290px;
+	height: 40px;
+	background-color: #343737;
+	color: #fff;
+	margin-top: 315px;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8; 
+}
+.hot_new {
+	font-size: 14px;
+	color: #fff;
+	line-height: 40px;
+	padding-left: 10px;
+}
+.to_girl {
+	width: 290px;
+	height: 175px;
+	float: left;
+	background: url('../picture/girl.jpg');
+	margin-left: 1px;
+	margin-top: 22px;
+	overflow: hidden;
+}
+.girl_mask,
+.old_mask {
+	width: 290px;
+	height: 40px;
+	margin-top: 138px;
+	color: #fff;
+	background-color: #343737;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+
+}
+.to_old {
+	width: 290px;
+	height: 175px;
+	float: left;
+	background: url('../picture/old.jpg');
+	margin-left: 1px;
+	margin-top: 1px;
+} 
+.to_icon {
+	width: 148px;
+	height: 355px;
+	float: left;
+	margin-top: -175px;
+}
+.to_focus {
+	width: 148px;
+	height: 118px;
+	float: left;
+	background-color: #ffa75d;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/定位/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/定位/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/定位/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/定位/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/定位/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont_place,
+.iconfont_dynamic,
+.iconfont_edu {
+	display: inline-block;
+    font-family:"iconfont" !important;
+    font-size:38px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.to_icon a {
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+	display: block;
+}
+.to_dynamic {
+	width: 148px;
+	height: 118px;
+	float: left;
+	background-color: #f2674f;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/动态/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/动态/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/动态/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/动态/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/动态/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.to_edu {
+	width: 148px;
+	height: 118px;
+	float: left;
+	background-color: #f2674e;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/信息/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/信息/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/信息/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/信息/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/信息/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.hotact {
+	width: 230px;
+	height: 405px;
+	float: left;
+	margin-left: 15px;
+}
+.hot_more {
+	font-size: 12px;
+	color: #999999;
+	margin-left: 130px;
+	line-height: 15px;
+}
+.hot_face {
+	width: 230px;
+	height: 90px;
+	margin-top: 22px;
+}
+.smile_face {
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-right: 5px;
+}
+.new_face {
+	font-size: 14px;
+	color: #333333;
+	float: left;
+
+}
+.hot_leave {
+	font-size: 12px;
+	color: 666666;
+
+}
+.face_hr {
+	display: block;
+	margin-top: 12px;
+	border: 1px #dddddd solid;
+}
+.hot_face2 {
+	width: 230px;
+	height: 90px;
+	margin-top: 10px;
+}
+.school {
+	width: 1005px;
+	height: 255px;
+	margin:0 auto;
+	float: left;
+}
+.sch_forum {
+	width: 730px;
+	height: 220px;
+	float: left;
+	margin-left: 10px;
+}
+.sch_more {
+	font-size: 12px;
+	color: #999999;
+	margin-left: 625px;
+}
+.hot_forum {
+	display: inline-block;
+	font-size: 14px;
+	color: #222222;
+	margin-top: 10px;
+}
+.hui {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background-color: #dddddd;
+}
+.sch_table {
+	width: 730px;
+	height: 150px;
+}
+.sch_table a {
+	font-size: 14px;
+	color: #333333;
+}
+.ask {
+	width: 230px;
+	height: 220px;
+	float: left;
+	margin-left: 15px;
+}
+.ask_a {
+	display: inline-block;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 7px;
+}
+.origin {
+	width: 1005px;
+	height: 425px;
+	margin:0 auto;
+	float: left;
+}
+.form {
+	width: 730px;
+	height: 405px;
+	margin-left: 10px;
+	float: left;
+}
+.origin_form,
+.org_dynamic {
+	font-size: 15px;
+	color: #4bd886;
+}
+.form_hothr,
+.org_hothr {
+	width: 58px;
+	border: 1px #4bd886 solid;
+	margin-top: 8px;
+}
+.form_vd {
+	width: 290px;
+	height: 178px;
+	float: left;
+	margin-top: 22px;
+	background: url('../picture/vd.png');
+	overflow: hidden;
+}
+.vd_mask {
+	width: 290px;
+	height: 40px;
+	background-color: #343737;
+	color: #fff;
+	margin-top: 140px;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8; 
+}
+.form_vd_up {
+	width: 290px;
+	height: 178px;
+	float: left;
+	margin-top: 1px;
+	background: url('../picture/vd.png');
+	overflow: hidden;
+}
+.form_iconfont {
+	width: 149px;
+	height: 356px;
+	float: left;
+	margin-top: -177px;
+	margin-left: 1px;
+	overflow: hidden;
+}
+.form_photo {
+	width: 150px;
+	height: 120px;
+	background-color: #46c777;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/相册/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/相册/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/相册/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/相册/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/相册/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont_photo {
+	display: inline-block;
+    font-family:"iconfont" !important;
+    font-size:50px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.photo_p {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+.form_story {
+	width: 150px;
+	height: 120px;
+	background-color: #48c97c;
+}
+.form_movie {
+	width: 150px;
+	height: 120px;
+	background-color: #ff9743;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/小说/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/小说/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/小说/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/小说/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/小说/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/电影/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/电影/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/电影/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/电影/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/电影/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.organization {
+	width: 230px;
+	height: 360px;
+	float: left;
+	margin-left: 15px;
+}
+.seed {
+	width: 1005px;
+	height: 365px;
+	margin: 0 auto;
+	float: left;
+}
+.hot_seed {
+	width: 730px;
+	height: 335px;
+	float: left;
+	margin-left: 10px;
+}
+.liyue {
+	width: 240px;
+	height: 150px;
+	float: left;
+	margin-top: 18px;
+}
+.seed_liyue {
+	width: 110px;
+	height: 150px;
+	float: left;
+	margin-right: 10px;
+}
+.liyue_word {
+	font-size: 14px;
+	color: #222222;
+}
+.liyue_grade {
+	display: inline-block;
+	font-size: 14px;
+	color: #999999;
+}
+.liyue_score {
+	font-size: 18px;
+	color: #e75c41;
+}
+.liyue_actor,
+.liyue_type,
+.liyue_time {
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+}
+.liyue_name,
+.liyue_name2 {
+	display: inline-block;
+	font-size: 12px;
+	color: 333333;
+}
+.liyue_name2 {
+	padding-left: 43px;
+}
+.seed_movie {
+	width: 730px;
+	height: 125px;
+	margin-top: 16px;
+	float: left;
+}
+.seed_movie a {
+	font-size: 14px;
+	color: #666666;
+}
+.movie_name {
+	width: 420px;
+}
+.movie_name a {
+	color: #333333;
+}
+.movie_type {
+	width: 210px;
+}
+.seed_competiton {
+	width: 230px;
+	height: 330px;
+	float: left;
+	margin-left: 15px;
+}
+.comp_now {
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #222222;
+}
+.comp_name a {
+	font-size: 14px;
+	color: #333333;
+	line-height: 25px;
+}
+.market {
+	width: 1005px;
+	height: 425px;
+	margin-left: 10px;
+	float: left;
+}
+.two_market {
+	width: 730px;
+	height: 425px;
+	float: left;
+}
+.market_form,
+.soft_dynamic {
+	font-size: 15px;
+	color: #ffb400;
+}
+.market_hothr,
+.soft_hothr {
+	width: 58px;
+	border: 1px #ffb400 solid;
+	margin-top: 8px;
+}
+.mar_phone {
+	width: 290px;
+	height: 355px;
+	float: left;
+	margin-top: 20px;
+}
+.mar_computer {
+	width: 290px;
+	height: 178px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 20px;
+}
+.mar_camer {
+	width: 290px;
+	height: 177px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 1px;
+}
+.mar_iconfont {
+	width: 149px;
+	height: 355px;
+	float: left;
+	margin-top: -177px;
+	overflow: hidden;
+}
+.mar_elec {
+	width: 149px;
+	height: 120px;
+	background-color: #ff9a45;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/电视/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/电视/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/电视/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/电视/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/电视/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.elec_iconfont{
+	display: inline-block;
+    font-family:"iconfont" !important;
+    font-size:50px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.elec_word {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+.mar_life {
+	width: 149px;
+	height: 120px;
+	background-color: #ffbd27;
+}
+.mar_study {
+	width: 149px;
+	height: 120px;
+	background-color: #ffbd26;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/牙刷/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/牙刷/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/牙刷/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/牙刷/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/牙刷/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/学习资料/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/学习资料/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/学习资料/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/学习资料/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/学习资料/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.mar_soft {
+	width: 230px;
+	height: 425px;
+	float: left;
+	margin-left: 15px;
+}
+.soft_face {
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-right: 5px;
+	border:1px #d1d1d1 solid;
+}
+.job {
+	width: 1005px;
+	height: 250px;
+	float: left;
+	margin: 0 auto;
+}
+.partime_job {
+	width: 730px;
+	height: 250px;
+	margin-left: 10px;
+	float: left;
+}
+.job_table {
+	width: 730px;
+	height: 172px;
+	margin-top: 12px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #333333;
+}
+.com_time{
+	width: 310px;
+	font-size: 14px;
+	color: #222222;
+}
+.job_place {
+	font-size: 14px;
+	color: #222222;
+}
+.app {
+	width: 230px;
+	height: 250px;
+	float: left;
+	margin-left: 15px;
+}
+.app_pic {
+	width: 75px;
+	height: 90px;
+	margin-top: 18px;
+	float: left;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+}
+
+.app_pic img {
+	width: 70px;
+	height: 70px;
+}
+.lecture {
+	width: 1005px;
+	height: 465px;
+	float: left;
+	margin:0 auto;
+}
+.lec_infor {
+	width: 730px;
+	height: 465px;
+	float: left;
+	margin-left: 10px;
+}
+.lec_form,
+.lec_dynamic {
+	font-size: 16px;
+	color: #02b9c9;
+}
+.lec_hothr,
+.lec_hothr {
+	width: 58px;
+	border: 1px #02b9c9 solid;
+	margin-top: 8px;
+}
+.infor_detail {
+	width: 230px;
+	height: 140px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 13px;
+}
+.detail_pic {
+	width: 90px;
+	height: 135px;
+	float: left;
+	margin-right: 5px;
+}
+.detail_title {
+	font-size: 14px;
+	color: #333333;
+	display: block;
+}
+.detail_man {
+	font-size: 12px;
+	color: #666666;
+	display: block;
+	margin-top: 15px;
+}
+.detail_man2 {
+	font-size: 12px;
+	color: #666666;
+	padding-left: 48px;
+}
+.detail_time {
+	font-size: 12px;
+	color: #333333;
+}
+.past_review {
+	width: 730px;
+	height: 230px;
+	float: left;
+	margin-top: 10px;
+}
+.past_word {
+	font-size: 14px;
+	color: #222222;
+}
+.past_table {
+	width: 730px;
+	height: 205px;
+	font-size: 14px;
+	color: #333333;
+}
+.past_title {
+	width: 610px;
+
+}
+.past_table a {
+	font-size: 14px;
+	color: #333333;
+}
+.study_res {
+	width: 230px;
+	height: 205px;
+	float: left;
+	margin-left: 15px;
+}
+.study_res ul {
+	margin-top: 20px;
+}
+.res_book {
+	font-size: 14px;
+	color: #333333;
+	line-height: 20px;
+}
+.res_load {
+	font-size: 14px;
+	color: #ff8a43;
+	float: right; 
+}
+.bottom {
+	width: 100%;
+	height: 265px;
+	background-color: #333333;
+	overflow: hidden;
+}
+.about {
+	width: 382px;
+	height: 140px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.about_us a {
+	font-size: 14px;
+	color: #999999;
+	padding: 0 16px;
+}
+.about_add,
+.about_email {
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+	line-height: 24px;
+}
+.about_iconfont {
+	width: 200px;
+	height: 52px;
+	margin:0 auto;
+	margin-top: 18px;
+}
+.about_blog {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+	float: left;
+}
+.about_qq,
+.about_letter {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-left: 20px;
+	float: left;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/微博/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/微博/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/微博/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/微博/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/微博/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.icon_blog,
+.icon_qq,
+.icon_letter {
+    font-family:"iconfont" !important;
+    font-size:38px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333333;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+.icon_qq {
+	display: inline-block;
+	font-size: 35px;
+	margin-top: 4px;
+	margin-left: 8px;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/空间/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/空间/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/空间/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/空间/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/空间/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/微信/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/微信/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/微信/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/微信/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/微信/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.fixed {
+	width: 96px;
+	height: 480px;
+	position: fixed;
+	top: 100px;
+	left: 45px;
+	overflow: hidden;
+}
+.fixed_focus {
+	width: 96px;
+	height: 96px;
+	background-color: #ef5d42;
+	overflow: hidden;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/聚焦/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/聚焦/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/聚焦/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/聚焦/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/聚焦/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconf_sun,
+.iconf_sch,
+.iconf_look,
+.iconf_stu,
+.iconf_ret {
+	display: block;
+    font-family:"iconfont" !important;
+    font-size:40px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    margin-left: 28px;
+    margin-top: 25px;
+}
+.fixed_p {
+	font-size: 12px;
+	color: #fff;
+	padding-left: 60px;
+	margin-top: 8px;
+}
+.fixed_school {
+	width: 96px;
+	height: 96px;
+	background-color: #4dcd84;
+	overflow: hidden;
+	margin-top: 1px;
+}
+
+@font-face {
+	font-family: 'iconfont';
+    src: url('../iconfont/校园/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/校园/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/校园/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/校园/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/校园/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.fixed_look {
+	width: 96px;
+	height: 96px;
+	background-color: #ffc32c;
+	overflow: hidden;
+	margin-top: 1px;
+}
+@font-face {
+	font-family: 'iconfont';
+    src: url('../iconfont/发现/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/发现/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/发现/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/发现/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/发现/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.fixed_study {
+	width: 96px;
+	height: 96px;
+	background-color: #02b6c7;
+	overflow: hidden;
+	margin-top: 1px;
+}
+@font-face {
+	font-family: 'iconfont';
+    src: url('../iconfont/助学/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/助学/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/助学/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/助学/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/助学/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.fixed_return {
+	width: 96px;
+	height: 96px;
+	background-color: #aeaeae;
+	overflow: hidden;
+	margin-top: 1px;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/箭头/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/箭头/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/箭头/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/箭头/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/箭头/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.return_p {
+	font-size: 12px;
+	color: #fff;
+	padding-left: 40px;
+	margin-top: 8px;
+	cursor: pointer;
+}
